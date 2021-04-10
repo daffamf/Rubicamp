@@ -15,4 +15,5 @@ function deretKaskus(n) {
     return arr
 }
 
+
 console.log(deretKaskus(10));
