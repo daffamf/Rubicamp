@@ -12,6 +12,6 @@ function weirdMultiply(sentence) {
     }
 }
 
-console.log(weirdMultiply(39));
-console.log(weirdMultiply(999));
-console.log(weirdMultiply(3));
+console.log(weirdMultiply(39)); // output 4
+console.log(weirdMultiply(999)); // output 2
+console.log(weirdMultiply(3));  // output 3
