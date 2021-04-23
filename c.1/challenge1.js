@@ -9,3 +9,4 @@ function sum() {
   sum(1, 4);// output 5
   sum(11); //output 11
   sum(10, 3, 6, 7, 9);  //output 35
+
