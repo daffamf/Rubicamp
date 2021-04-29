@@ -1,6 +1,6 @@
 
 function deretKaskus(n) {
-    var arr = []
+var arr = []
     for (var i = 1; i <= n; i++) {
         var hasil = i * 3
         if ((hasil % 5 == 0) && (hasil % 6 == 0))
@@ -17,3 +17,14 @@ function deretKaskus(n) {
 
 
 console.log(deretKaskus(10));
+
+function deretKaskus(n){
+    const arr = []
+    for(let i = 1 ; i <= n;i++){
+        const hasil = i * 3
+        if ((hasil % 5 == 0) && (hasil % 6 == 0));
+        arr.push('KASKUS')
+       
+    }
+    console.log(hasil)
+} 
