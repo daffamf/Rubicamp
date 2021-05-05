@@ -16,7 +16,5 @@ function stingmanipulation(word) {
 
 }
 
-
-
 console.log(stingmanipulation('ayam'));
 console.log(stingmanipulation('bebek'));
