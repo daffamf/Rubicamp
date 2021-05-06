@@ -22,7 +22,7 @@ rl.on('line', (line) => {
         i++
         console.log(`\nPertanyaan :` + qna[i].question)
         rl.prompt()
-   
+
     } else if (line.trim().toLowerCase() == qna[i].answer) {
         i++
         console.log('anda beruntung!\n');

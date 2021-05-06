@@ -8,6 +8,7 @@ const rl = readline.createInterface({
     output: process.stdout,
     prompt: 'Tebakan:'
 });
+
 var i = 0;
 console.log('Selamat datang dipermainan tebak kata , silahkan jawab dengan benar')
 console.log('')
