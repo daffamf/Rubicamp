@@ -3,7 +3,7 @@ function weirdMultiply(sentence) {
     var realAngka = angka.map(Number)
     if (realAngka.length > 1) {
         var arr = 1
-        for (var i = 0; i < realAngka.length; i++) {
+        for (let i = 0; i < realAngka.length; i++) {
             arr = arr * realAngka[i]
         }
         return weirdMultiply(arr)
@@ -11,9 +11,7 @@ function weirdMultiply(sentence) {
         return sentence
     }
 }
-
 console.log(weirdMultiply(39)); // output 4
-
 console.log(weirdMultiply(999)); // output 2
-
 console.log(weirdMultiply(3));  // output 3
+
