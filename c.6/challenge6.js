@@ -27,3 +27,4 @@ function sentencesManipulation(sentences) {
 }
 
 console.log(sentencesManipulation('ibu pergi ke pasar bersama aku'))
+
