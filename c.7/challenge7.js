@@ -1,13 +1,14 @@
-function weirdMultiply(sentence) {
+function weirdMultiply(sentence){
     var angka = sentence.toString().split('')
     var realAngka = angka.map(Number)
-    if (realAngka.length > 1) {
+    if(realAngka.length > 1){
         var arr = 1
-        for(let i = 0; i < realAngka.length; i++){
+        for (let i = 0; i < realAngka.length; i++){
             arr = arr * realAngka[i]
         }
         return weirdMultiply(arr)
-    }else {
+
+    }else{
         return sentence
     }
 }
