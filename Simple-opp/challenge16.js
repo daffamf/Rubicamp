@@ -49,5 +49,5 @@ class CarFactory {
       this.door = 4;
       this.brend = "yaris"
    }
-} const l = new Car('Desember', 2019);
+} const l = new Car('Desember', 2021);
 l.garansi();
